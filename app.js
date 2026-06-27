@@ -27,7 +27,8 @@ function calculate(operator) {
         case '*': display = a * b; break;
         case '^': display = a ** b; break;
     }
-    sign = null;   
+    sign = null;
+    a = Number(display);   
     }
 
 panel.addEventListener('click', function(event) {
